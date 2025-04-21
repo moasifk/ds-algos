@@ -1,4 +1,4 @@
-Here is the Big O [Complexity chart](big_o_complexity_chart.png)
+Here is the Big O [Complexity chart](../big_o_complexity_chart.png)
 
 # Big O Cheat Sheet:
 -Big Os-
