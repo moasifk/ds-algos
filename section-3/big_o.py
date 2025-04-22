@@ -32,3 +32,26 @@ def order_of_n():
     """
     numbers = [1, 2, 3, 4, 5]
     return sum_of_numbers(numbers) # O(n)
+
+def order_of_log_n(numbers: str, number_to_find: int) -> int:
+    """
+    This function demonstrates the order of log n. O(log n)
+    It takes a list of numbers and returns the position of a particular number.
+    :return: position of specific number
+    """
+    numbers = [1, 2, 3, 4, 5]
+    number_to_find = 3  
+    left = 0
+    right = len(numbers) - 1
+    while left <= right: # O(log n)
+        mid = (left + right) // 2
+        if numbers[mid] == number_to_find:
+            return mid
+        elif numbers[mid] < number_to_find:
+            left = mid + 1
+        else:
+            right = mid - 1
+
+    return -1  # number not found
+
+print(order_of_log_n([1,4,5,6,7], 4))
