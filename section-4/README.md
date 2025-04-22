@@ -4,6 +4,13 @@
 - Technical knowledge - Do you know the fundamentals of the job you're applying for?
 - Communication skills: Does your personality match the companies’ culture?
 
+## When you get code interview questions do these
+- Clarification questions
+- Think out aloud (Time and space complexity)
+- Talk through while deriving the solutions
+- Test the edge cases
+- Start writing pseudo code -> and actual code
+
 # Step By Step through a problem:
 1. When the interviewer says the question, write down the key points at the top (i.e. sorted array). Make sure you have all the details. Show how organized you are.
 2. Make sure you double check: What are the inputs? What are the outputs?
